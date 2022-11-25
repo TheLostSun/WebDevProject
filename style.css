@@ -1,0 +1,90 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: rgb(168, 99, 99);
+    }
+    
+    #search h1 {
+        text-align: center;
+        padding-bottom: 30px;
+        padding-top: 40px;
+        font-size: 60px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #search {
+        margin-top: 20px;
+        border: 5px solid rgb(179, 177, 177);
+    }
+    
+    #search input {
+        padding-left: 7px;
+        font-size: large;
+        margin: 20px;
+        width: 300px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    
+    #btn {
+        padding: 9px;
+        width: 90px;
+        font-size: large;
+        border-radius: 20px;
+    }
+    
+    #main-app {
+        width: 90vw;
+        margin: auto
+    }
+    
+    #app {
+        border: 5px solid rgb(179, 177, 177);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px
+    }
+    
+    #backgroundChange {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 40vw;
+        background-color: rgb(195, 201, 142);
+        height: 50px;
+    }
+    
+    #backgroundChange input {
+        scale: 2;
+    }
+    
+    input[id="pink"]:checked {
+        accent-color: rgb(163, 68, 84);
+        
+    }
+    
+    input[id="grey"]:checked {
+        accent-color: rgb(75, 75, 75);
+    }
+    
+    input[id="blue"]:checked {
+        accent-color: rgb(35, 145, 209);
+    }
+    
+    input[id="green"]:checked {
+        accent-color: rgb(45, 180, 67);
+    }
+    
+    input[id="black"]:checked {
+        accent-color: rgb(0, 0, 0);
+    }
